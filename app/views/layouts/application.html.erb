@@ -4,10 +4,11 @@
     <title>Tutorial</title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <link rel="stylesheet" media="all" href="assets/application.css">
   </head>
 
   <body>
     <%= yield %>
+    <script src="assets/welcome.js"></script>
   </body>
 </html>
